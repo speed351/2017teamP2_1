@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no" charset="utf-8/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Master-Detail</title>
+</head>
+<script src="main.js"></script>
+<body>
+<div class="ui-content">
+	<h1>지역 설정</h1>
+	<div>
+		<select id = region>
+			<option value="empty">지역을 선택하세요.</option>
+			<optgroup label="수도권">
+				<option value="seoul">서울</option>
+				<option value="incheon">인천</option>
+			</optgroup>
+			<optgroup label="경기도">
+				<option value="yongin">용인</option>
+				<option value="suwon">수원</option>
+			</optgroup>
+		</select>
+	</div>
+		<button onclick= "regions()" id="rrr">지역 설정</button>
+		<div id= backbutton>
+		<input type = "button" value = "뒤로" name = "backpage" onclick = "location.href='section2.html'">
+		</div>
+	</div>
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

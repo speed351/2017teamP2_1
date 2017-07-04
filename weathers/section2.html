@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no" charset="utf-8/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Master-Detail</title>
+</head>
+
+<body>
+	<div class="ui-page" id="section2">
+		<div class="ui-header">
+			<h1>설정</h1>
+		</div><!-- /header -->
+
+<div class="ui-content">
+	<div id = menu>		
+		<select id=mmenu onChange="var thelocation=this.options[this.selectedIndex].value; if (thelocation != '') window.open(thelocation);">
+		<option value="index.html">날씨</option>
+		<option value="section1.html">생활 정보</option>
+		<option value="section2.html">설정</option>
+		</select>
+	</div>
+	<ul class="ui-listview">
+		<li class="ui-group-index">option</li>
+		<li class="ui-li-anchor"><a href="regionset.html" TARGET=_SELF>지역 설정</a></li>
+		<li class="ui-li-anchor"><a href="alram.html" TARGET=_SELF>알람 기능</a></li>
+		<li class="ui-li-anchor"><a href="lauguage.html" TARGET=_SELF>언어 설정</a></li>
+	</ul>
+</div><!-- /content -->
+</div><!-- /page -->
+
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>

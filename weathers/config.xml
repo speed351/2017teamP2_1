@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/weathers" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="qNRZjNxVjH.weathers" package="qNRZjNxVjH" required_version="2.4"/>
+    <access origin="*" subdomains="true"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>weathers</name>
+    <tizen:profile name="mobile"/>
+    <tizen:setting context-menu="disable"/>
+    
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+</widget>
+

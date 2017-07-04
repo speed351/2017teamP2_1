@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script src="./lib/jquery.js"></script>
+	<script src="./js/main.js"></script>
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Master-Detail</title>
+</head>
+
+<body>
+		<div id= header>
+			<h1>Weather</h1>
+		</div>
+		<div class="ui-content">
+			<div>
+				<h2>현재 날씨 </h2>
+				<div id = temperature>
+				 현재 기온
+				</div>
+				<div id = cloud>
+				구름 상황
+				</div>
+				<div id = probability>
+				강수 확률
+				</div>
+				<div id = time_weather>
+				시간대별 날씨
+				</div>
+				<div id = time_temperature>
+				시간대별 기온
+				</div>
+
+				<div id = menu>
+					<select id=mmenu onChange="var thelocation=this.options[this.selectedIndex].value; if (thelocation != '') window.open(thelocation);">
+						<option value="index.html">날씨</option>
+						<option value="section1.html">생활 정보</option>
+						<option value="section2.html">설정</option>
+					</select>
+				</div>
+
+				<div id="locationinfo">
+ 				</div>
+ 				<div id="weatherinfo">
+ 				</div>
+
+		</div><!— /content —>
+</div><!— /page —>
+
+
+</body>
+</html>

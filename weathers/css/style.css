@@ -1,0 +1,76 @@
+/*
+Please put the custom styles here.
+*/
+
+#header{
+	width: 340px;
+	height: 60px;
+	position: absolute;
+	top: 0px;
+}
+#temperature{
+	width: 210px;
+	height: 140px;
+	background: #cccccc;
+	position: absolute;
+	top: 120px;
+}
+#cloud{
+	width: 150px;
+	height: 70px;
+	background: #123456;
+	position: absolute;
+	left: 210px;
+	top: 120px;
+}
+#probability{
+	width: 150px;
+	height: 70px;
+	background: #775533;
+	position: absolute;
+	left: 210px;
+	top: 190px;
+}
+#time_weather{
+	width: 360px;
+	height: 100px;
+	background: #446688;
+	position: absolute;
+	top: 260px;
+}
+#time_temperature{
+	width: 360px;
+	height: 50px;
+	background: #aa1166;
+	position: absolute;
+	top: 360px;
+}
+h2{
+	padding: 10px;
+	width: 380px;
+	height: 60px;
+	position: absolute;
+	top: 40px;
+}
+#menu{
+	position: absolute;
+	bottom:0px;
+}
+
+#backbutton{
+	position:absolute;
+	bottom:0px;
+}
+
+#locationinfo{
+	position:absolute;
+	top:300px;
+}
+#weatherinfo{
+	position:absolute;
+	top: 320px;
+}
+h6{
+	position:relative;
+	top:100px;
+}
